@@ -1,0 +1,8 @@
+// 6. Merge two arrays using the spread operator
+const a = [1, 2];
+const b = [3, 4];
+
+const merged = [...a, ...b];
+
+// Result should be [1, 2, 3, 4]
+console.log(merged);
